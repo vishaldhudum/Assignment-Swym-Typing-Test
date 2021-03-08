@@ -1,0 +1,17 @@
+.app-container {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	padding: 15px;
+	box-sizing: border-box;
+	justify-content: center;
+}
+
+.main-heading {
+	font-size: 50px;
+	margin: 0;
+	margin-bottom: 20px;
+	color: #fff;
+	text-shadow: 2px 2px 5px #2a2a2c;
+}

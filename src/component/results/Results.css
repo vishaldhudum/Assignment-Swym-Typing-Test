@@ -1,0 +1,22 @@
+.try-again-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.try-again-container > h1 {
+  margin: 0;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.result-container > p {
+  font-size: 28px;
+  margin: 7px;
+}
+
+.start-again-btn {
+  margin-top: 20px;
+}

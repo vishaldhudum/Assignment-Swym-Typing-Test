@@ -1,0 +1,30 @@
+.test-container {
+  background-color: #ffffff;
+  margin: 20px;
+  margin-left: 10%;
+  width: 80%;
+  min-height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.type-challenge-cont {
+  display: flex;
+  flex-grow: 1;
+}
+
+@media only screen 
+and (max-device-width : 1024px) {
+  .test-container {
+    margin: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+.sub-heading, .description {
+	margin: 0;
+	margin-bottom: 20px;
+	color: #fff;
+	text-shadow: 2px 2px 5px #2a2a2c;
+}
+
+.time-dropdown{
+  text-align: center;
+}
+
+.time-dropdown .form-group{
+  width: 200px;
+  display: inline-block;
+}
